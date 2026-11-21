@@ -13,7 +13,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "Somewhere a kettle has just clicked off. The steam rises in one slow ribbon and thins into the light. Nothing asks it to hurry. It rises, and goes, and the kitchen stays warm behind it. There is time to watch. There is time to stand, and go the same unhurried way.";
+  "Somewhere a kettle has just clicked off. The steam rises in one slow ribbon and thins into the light. Nothing asks it to hurry. It rises, and goes, and the warmth stays where it was. There is time to watch. There is time to stand, and go the same unhurried way.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
